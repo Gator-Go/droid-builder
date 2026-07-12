@@ -1,0 +1,232 @@
+<appFuncs>
+
+  <appFunc funcKey='___SYNC_IMPORT___' tblOrder='forward'>
+    <func indent='0'>import ppp.ppp.ppp.pojos.Yyyyy;</func>
+    <func indent='0'>import ppp.ppp.ppp.sync.YyyyySync;</func>
+    <func indent='0'>import ppp.ppp.ppp.sync.SyncYyyyyQueueHelper;</func>
+  </appFunc>
+
+  <appFunc funcKey='___SYNC_URL___' tblOrder='forward'>
+    <func indent='4'>private String YYYYY_URL = "";</func>
+    <func indent='4'>private String YYYYY_DELETE = "";</func>
+    <func indent='4'>private String SYNC_YYYYY_URL = "";</func>
+  </appFunc>
+
+  <appFunc funcKey='___SYNC_URL_LOAD___' tblOrder='forward'>
+    <func indent='12'>YYYYY_URL = "https://" + prefServerIP + "/xxxxxws/rest/yyyyys/" + lastSyncDateStr;</func>
+    <func indent='12'>YYYYY_DELETE = "https://" + prefServerIP + "/xxxxxws/rest/yyyyysDeleted/" + lastSyncDateStr;</func>
+    <func indent='12'>SYNC_YYYYY_URL = "https://" + prefServerIP + "/xxxxxws/rest/syncYyyyys/";</func>
+    <func indent='12'>ListLLLLLYyyyyGGGGG newYyyyys = new ArrayListLLLLLYyyyyGGGGG();</func>
+  </appFunc>
+
+  <appFunc funcKey='___SYNC_DEF___' tblOrder='forward'>
+    <func indent='4'>private final YyyyySync yyyyySync;</func>
+  </appFunc>
+
+  <appFunc funcKey='___SYNC_DEF_NEW___' tblOrder='forward'>
+    <func indent='8'>yyyyySync = new YyyyySync (mContentResolver, context);</func>
+  </appFunc>
+
+  <appFunc funcKey='___SYNC_DELETE___' tblOrder='reverse'>
+    <func indent='12'>Log.i(TAG, "***************************** Streaming delete data from server: " + YYYYY_URL);</func>
+    <func indent='12'>String yyyyyDeleteStr = sslWithServer.sslInputStream(YYYYY_DELETE, authorization);</func>
+    <func indent='12'>Log.i(TAG, "YYYYY Delete String = " + yyyyyDeleteStr);</func>
+    <func indent='12'>yyyyySync.syncYyyyyDelete(yyyyyDeleteStr, syncResult, syncInfo);</func>
+    <func indent='0'></func>
+  </appFunc>
+
+  <appFunc funcKey='___SYNC_CALL___' tblOrder='forward'>
+    <func indent='12'>SyncYyyyyQueueHelper syncYyyyyQueueHelper = new SyncYyyyyQueueHelper(context);</func>
+    <func indent='12'>String yyyyyQueueResult = syncYyyyyQueueHelper.doSyncYyyyyQueue();</func>
+    <func indent='12'>if (!yyyyyQueueResult.equals("Success")) {</func>
+    <func indent='16'>Log.i(TAG, "********************** doSyncYyyyyQueue was not successfull");</func>
+    <func indent='16'>return;</func>
+    <func indent='12'>}</func>
+    <func indent='0'></func>
+    <func indent='12'>if (getServerData.booleanValue() == true) {</func>
+    <func indent='16'>Log.i(TAG, "***************************** Streaming data from server: " + YYYYY_URL);</func>
+    <func indent='16'>String yyyyyInputStr = sslWithServer.sslInputStream(YYYYY_URL, authorization);</func>
+    <func indent='16'>Log.i(TAG, "YYYYY Input String = " + yyyyyInputStr);</func>
+    <func indent='16'>newYyyyys = yyyyySync.syncYyyyyData(yyyyyInputStr, syncResult, prefServerIP, authorization, syncInfo);</func>
+    <func indent='16'>if (newYyyyys.size() > 0) {</func>
+    <func indent='20'>final YyyyyParser yyyyyParser = new YyyyyParser();</func>
+    <func indent='20'>String jsonStr = yyyyyParser.parseYyyyyList(newYyyyys);</func>
+    <func indent='20'>SYNC_YYYYY_URL = SYNC_YYYYY_URL + jsonStr;</func>
+    <func indent='20'>Log.i(TAG, "***************************** Streaming data from server: " + SYNC_YYYYY_URL);</func>
+    <func indent='20'>String yyyyyResult = sslWithServer.sslInputStream(SYNC_YYYYY_URL, authorization);</func>
+    <func indent='20'>Log.i(TAG, "New YYYYY Add Result = " + yyyyyResult);</func>
+    <func indent='16'>}</func>
+    <func indent='12'>}</func>
+    <func indent='0'></func>
+  </appFunc>
+
+
+
+  <appFunc funcKey='___DB_OPEN_IMPORT_FUNCTION___' tblOrder='forward'>
+    <func indent='0'>import ppp.ppp.ppp.tables.YyyyyTable;</func>
+  </appFunc>
+
+  <appFunc funcKey='___DB_OPEN_CREATE_FUNCTION___' tblOrder='forward'>
+    <func indent='4'>database.execSQL(YyyyyTable.YYYYY_CREATE);</func>
+  </appFunc>
+
+  <appFunc funcKey='___DB_OPEN_DROP_FUNCTION___' tblOrder='forward'>
+    <func indent='4'>db.execSQL("DROP TABLE IF EXISTS YYYYY");</func>
+  </appFunc>
+
+
+  <appFunc funcKey='___MANIFEST_ACTIVITY_FUNCTION___' tblOrder='forward'>
+    <func indent='0'>___MANIFEST_MAP_VIEW_LOC___</func>
+    <func indent='0'>___MANIFEST_MAP_VIEW_CURRENT_LOC___</func>
+    <func indent='8'>LLLLLactivity android:name="YyyyyList"</func>
+    <func indent='18'>android:label="DDDDD List"GGGGG</func>
+    <func indent='8'>LLLLL/activityGGGGG</func>
+    <func indent='8'>LLLLLactivity android:name="YyyyyView"</func>
+    <func indent='18'>android:label="DDDDD View"GGGGG</func>
+    <func indent='8'>LLLLL/activityGGGGG</func>
+    <func indent='8'>LLLLLactivity android:name="YyyyyLongView"</func>
+    <func indent='18'>android:label="DDDDD Long View"GGGGG</func>
+    <func indent='8'>LLLLL/activityGGGGG</func>
+    <func indent='8'>LLLLLactivity android:name="YyyyyAdd"</func>
+    <func indent='18'>android:label="DDDDD Add"</func>
+    <func indent='18'>android:windowSoftInputMode="adjustResize|stateHidden"GGGGG</func>
+    <func indent='8'>LLLLL/activityGGGGG</func>
+    <func indent='8'>LLLLLactivity android:name="YyyyyEdit"</func>
+    <func indent='18'>android:label="DDDDD Edit"</func>
+    <func indent='18'>android:windowSoftInputMode="adjustResize|stateHidden"GGGGG</func>
+    <func indent='8'>LLLLL/activityGGGGG</func>
+    <func indent='8'>LLLLLactivity android:name="YyyyySearch"</func>
+    <func indent='18'>android:label="DDDDD Search"</func>
+    <func indent='18'>android:windowSoftInputMode="adjustResize|stateHidden"GGGGG</func>
+    <func indent='8'>LLLLL/activityGGGGG</func>
+    <func indent='0'>___MANIFEST_LOC_SERVICE___</func>
+    <func indent='0'>___MANIFEST_SECURITY___</func>
+  </appFunc>
+
+  <appFunc funcKey='___ACTIVITY_IMPORT_FUNCTION___' tblOrder='forward'>
+    <func indent='0'>import ppp.ppp.ppp.pojos.Yyyyy;</func>
+    <func indent='0'>import ppp.ppp.ppp.daos.YyyyyDao;</func>
+  </appFunc>
+
+  <appFunc funcKey='___ACTIVITY_DAO_FUNCTION___' tblOrder='forward'>
+    <func indent='2'>private YyyyyDao yyyyyDao;</func>
+  </appFunc>
+
+  <appFunc funcKey='___ACTIVITY_TABLE_FUNCTION___' tblOrder='forward'>
+    <func indent='3'>, "DDDDD"</func>
+  </appFunc>
+
+  <appFunc funcKey='___ACTIVITY_NEW_DAO_FUNCTION___' tblOrder='forward'>
+    <func indent='4'>yyyyyDao = new YyyyyDao(this);</func>
+  </appFunc>
+
+  <appFunc funcKey='___ACTIVITY_CLOSE_FUNCTION___' tblOrder='forward'>
+    <func indent='4'>yyyyyDao.close();</func>
+  </appFunc>
+
+  <appFunc funcKey='___ACTIVITY_SELECTION_FUNCTION___' tblOrder='forward'>
+    <func indent='3'>if (selection.equals("DDDDD")) {</func>
+    <func indent='6'>ArrayListLLLLLYyyyyGGGGG values = yyyyyDao.getAllYyyyys();</func>
+    <func indent='6'>intent = new Intent(XxxxxActivity.this, YyyyyList.class);</func>
+    <func indent='6'>Bundle extra = new Bundle();</func>
+    <func indent='6'>extra.putParcelableArrayList("Yyyyys", values);</func>
+    <func indent='6'>extra.putBoolean("YyyyyListFlag", true);</func>
+    <func indent='6'>intent.putExtra("YyyyysContent", extra);</func>
+    <func indent='3'>}</func>
+  </appFunc>
+
+  <appFunc funcKey='___STRING_FUNCTION___' tblOrder='forward'>
+    <func indent='0'>___STRING_FOR_INTEGER___</func>
+    <func indent='0'>___STRING_FOR_STRING___</func>
+    <func indent='0'>___STRING_FOR_CLOB___</func>
+    <func indent='0'>___STRING_FOR_ENUM___</func>
+    <func indent='0'>___STRING_FOR_TAG___</func>
+    <func indent='0'>___STRING_FOR_DOUBLE___</func>
+    <func indent='0'>___STRING_FOR_MONEY___</func>
+    <func indent='0'>___STRING_FOR_DATE___</func>
+    <func indent='0'>___STRING_FOR_DATE_TIME___</func>
+    <func indent='0'>___STRING_FOR_BOOLEAN___</func>
+    <func indent='0'>___STRING_FOR_CAMERA___</func>
+    <func indent='0'>___STRING_FOR_VIDEO___</func>
+    <func indent='0'>___STRING_FOR_THUMBNAIL___</func>
+    <func indent='0'>___STRING_FOR_POST___</func>
+    <func indent='0'>___STRING_FOR_LOC___</func>
+    <func indent='0'>___STRING_FOR_CURRENT_LOC___</func>
+    <func indent='0'>___STRING_FOR_ONE2MANY_PARENT___</func>
+    <func indent='0'>___STRING_FOR_ONE2MANY_CHILD___</func>
+  </appFunc>
+
+
+  <appFunc funcKey='___PROVIDER_AUTHORITY_FUNCTION___' tblOrder='forward'>
+    <func indent='4'>private static final String YYYYY_AUTHORITY = YyyyyContract.CONTENT_AUTHORITY;</func>
+  </appFunc>
+
+  <appFunc funcKey='___PROVIDER_ROUTE_FUNCTION___' tblOrder='forward'>
+    <func indent='0'>___PROVIDER_ROUTE_CODE___</func>
+  </appFunc>
+
+  <appFunc funcKey='___PROVIDER_URIMATCHER_FUNCTION___' tblOrder='forward'>
+    <func indent='8'>sUriMatcher.addURI(YYYYY_AUTHORITY, "yyyyys", ROUTE_YYYYYS);</func>
+    <func indent='8'>sUriMatcher.addURI(YYYYY_AUTHORITY, "yyyyys/*", ROUTE_YYYYYS_ID);</func>
+  </appFunc>
+
+  <appFunc funcKey='___PROVIDER_GET_TYPE_FUNCTION___' tblOrder='forward'>
+    <func indent='12'>case ROUTE_YYYYYS:</func>
+    <func indent='16'>return YyyyyContract.Yyyyy.CONTENT_TYPE;</func>
+    <func indent='12'>case ROUTE_YYYYYS_ID:</func>
+    <func indent='16'>return YyyyyContract.Yyyyy.CONTENT_ITEM_TYPE;</func>
+  </appFunc>
+
+  <appFunc funcKey='___PROVIDER_QUERY_FUNCTION___' tblOrder='forward'>
+    <func indent='12'>case ROUTE_YYYYYS_ID:</func>
+    <func indent='16'>String yyyyyId = uri.getLastPathSegment();</func>
+    <func indent='16'>builder.where(YyyyyContract.Yyyyy._ID + "=?", yyyyyId);</func>
+    <func indent='12'>case ROUTE_YYYYYS:</func>
+    <func indent='16'>builder.table(YyyyyContract.Yyyyy.TABLE_YYYYY).where(selection, selectionArgs);</func>
+    <func indent='16'>Cursor yyyyyCursor = builder.query(db, projection, sortOrder);</func>
+    <func indent='16'>Context yyyyyCtx = getContext();</func>
+    <func indent='16'>assert yyyyyCtx != null;</func>
+    <func indent='16'>yyyyyCursor.setNotificationUri(yyyyyCtx.getContentResolver(), uri);</func>
+    <func indent='16'>return yyyyyCursor;</func>
+  </appFunc>
+
+  <appFunc funcKey='___PROVIDER_INSERT_FUNCTION___' tblOrder='forward'>
+    <func indent='12'>case ROUTE_YYYYYS:</func>
+    <func indent='16'>long yyyyyId = db.insertOrThrow(YyyyyContract.Yyyyy.TABLE_YYYYY, null, values);</func>
+    <func indent='16'>result = Uri.parse(YyyyyContract.Yyyyy.CONTENT_URI + "/" + yyyyyId);</func>
+    <func indent='16'>break;</func>
+    <func indent='12'>case ROUTE_YYYYYS_ID:</func>
+    <func indent='16'>throw new UnsupportedOperationException("Insert not supported on URI: " + uri);</func>
+  </appFunc>
+
+  <appFunc funcKey='___PROVIDER_DELETE_FUNCTION___' tblOrder='forward'>
+    <func indent='12'>case ROUTE_YYYYYS:</func>
+    <func indent='16'>count = builder.table(YyyyyContract.Yyyyy.TABLE_YYYYY)</func>
+    <func indent='20'>.where(selection, selectionArgs)</func>
+    <func indent='20'>.delete(db);</func>
+    <func indent='16'>break;</func>
+    <func indent='12'>case ROUTE_YYYYYS_ID:</func>
+    <func indent='16'>String yyyyyId = uri.getLastPathSegment();</func>
+    <func indent='16'>count = builder.table(YyyyyContract.Yyyyy.TABLE_YYYYY)</func>
+    <func indent='20'>.where(YyyyyContract.Yyyyy._ID + "=?", yyyyyId)</func>
+    <func indent='20'>.where(selection, selectionArgs)</func>
+    <func indent='20'>.delete(db);</func>
+    <func indent='16'>break;</func>
+  </appFunc>
+
+  <appFunc funcKey='___PROVIDER_UPDATE_FUNCTION___' tblOrder='forward'>
+    <func indent='12'>case ROUTE_YYYYYS:</func>
+    <func indent='16'>count = builder.table(YyyyyContract.Yyyyy.TABLE_YYYYY)</func>
+    <func indent='20'>.where(selection, selectionArgs)</func>
+    <func indent='20'>.update(db, values);</func>
+    <func indent='16'>break;</func>
+    <func indent='12'>case ROUTE_YYYYYS_ID:</func>
+    <func indent='16'>String yyyyyId = uri.getLastPathSegment();</func>
+    <func indent='16'>count = builder.table(YyyyyContract.Yyyyy.TABLE_YYYYY)</func>
+    <func indent='20'>.where(YyyyyContract.Yyyyy._ID + "=?", yyyyyId)</func>
+    <func indent='20'>.where(selection, selectionArgs)</func>
+    <func indent='20'>.update(db, values);</func>
+    <func indent='16'>break;</func>
+  </appFunc>
+
+</appFuncs>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/buttonGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:drawableTop="@drawable/icon_edit" 
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:drawableTop="@drawable/icon_home" 
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Return"
+            android:drawableTop="@drawable/icon_return" 
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+        
+    </LinearLayout>
+
+  <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" >
+
+___VIEW_PARENT_ONE2MANY_CHILD___
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+   					  
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/appColor"
+        android:textSize="17sp" />
+   		
+___TEXT_VIEW_INTEGER___
+___TEXT_VIEW_STRING___
+___TEXT_VIEW_CLOB___
+___TEXT_VIEW_ENUM___
+___TEXT_VIEW_TAG___
+___TEXT_VIEW_DOUBLE___
+___TEXT_VIEW_MONEY___
+___TEXT_VIEW_DATE___
+___TEXT_VIEW_DATE_TIME___
+___TEXT_VIEW_BOOLEAN___
+___TEXT_VIEW_CAMERA___
+___TEXT_VIEW_VIDEO___
+___TEXT_VIEW_THUMBNAIL___
+___TEXT_VIEW_POST___
+___TEXT_VIEW_LOC___
+___TEXT_VIEW_CURRENT_LOC___
+
+___TEXT_VIEW_LOC_SERVICE___
+___TEXT_VIEW_SECURITY___
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>

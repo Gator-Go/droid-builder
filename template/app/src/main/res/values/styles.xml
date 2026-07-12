@@ -1,0 +1,63 @@
+<resources>
+    <style name="mytheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="buttonStyle">@style/MyButtonStyle</item>
+        <item name="alertDialogTheme">@style/MyDialogStyle</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/dark_gray</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/MyButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/MyButtonStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/MyButtonStyle</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:editTextBackground">@color/black</item>
+        <item name="android:editTextColor">@color/white</item>
+    </style>
+
+    <style name="PreferenceThemeOverlay" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="preferenceCategoryStyle">@style/PreferenceCategoryStyle</item>
+        <item name="preferenceStyle">@style/PreferenceStyle</item>
+        <item name="editTextPreferenceStyle">@style/EditTextPreferenceStyle</item>
+        <item name="checkBoxPreferenceStyle">@style/CheckBoxPreferenceStyle</item>
+        <item name="alertDialogTheme">@style/MyDialogStyle</item> <!-- Add this -->
+    </style>
+
+    <style name="PreferenceCategoryStyle" parent="Preference.Category.Material">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PreferenceStyle" parent="Preference.Material">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="EditTextPreferenceStyle" parent="Preference.Material">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CheckBoxPreferenceStyle" parent="Preference.Material">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

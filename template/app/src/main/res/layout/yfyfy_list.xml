@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/buttonGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:drawableTop="@drawable/icon_add"
+            android:textSize="15sp" 
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:drawableTop="@drawable/icon_search"
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+
+
+___BUTTON_LOC___
+___BUTTON_CURRENT_LOC___
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Return"
+            android:drawableTop="@drawable/icon_return"
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+        
+    </LinearLayout>
+
+___VIEW_PARENT_ONE2MANY_CHILD___
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <TextView
+        android:id="@+id/instruct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/appColor"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="___LOAD_LIST_HEADING___"
+        android:textSize="23sp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout> 
+

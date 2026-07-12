@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application android:icon="@drawable/logo" 
+	android:theme="@style/mytheme"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config">
+
+        <meta-data
+          android:name="com.google.android.gms.version"
+          android:value="@integer/google_play_services_version" />
+        <meta-data
+          android:name="com.google.android.geo.API_KEY"
+          android:value="AIzaSyAYEyKQ1o_gXdW-F034Hhm2WYhaTsl7M2k"/>
+
+        <activity android:name="XxxxxActivity"
+          android:label="@string/app_name"
+          android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+	    android:name=".SettingsActivity"
+	    android:configChanges="orientation|screenSize|keyboardHidden"
+	    android:theme="@style/mytheme" >
+        </activity>
+        <activity android:name="CapturePhoto"
+                  android:label="Capture Photo">
+        </activity>
+        <activity android:name="XxxxxPhotoView"
+                  android:label="Photo View">
+        </activity>
+        <activity android:name="XxxxxVideoView"
+                  android:label="Video View">
+        </activity>
+        <activity android:name="XxxxxThumbnailView"
+                  android:label="Thumbnail View">
+        </activity>
+        <activity android:name="XxxxxPostPicView"
+                  android:label="Post Pic View">
+        </activity>
+        <activity android:name="XxxxxPostVidView"
+                  android:label="Post Video View">
+        </activity>
+___MANIFEST_ACTIVITY_FUNCTION___
+
+        <service android:name="ppp.ppp.ppp.sync.XxxxxSyncService"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter"
+                       android:resource="@xml/syncadapter" />
+        </service>
+
+        <service
+            android:name="ppp.ppp.ppp.accounts.GenericAccountService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+	<provider
+	    android:name=".provider.XxxxxProvider"
+	    android:authorities="ppp.ppp.ppp.provider.XxxxxProvider"
+	    android:exported="false" />
+
+    </application>
+</manifest> 

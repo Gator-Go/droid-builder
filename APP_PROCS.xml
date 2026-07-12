@@ -1,0 +1,54 @@
+<appProcs>
+  <appProc fileName='AndroidManifest.xml' procName='createMultiFunctionProc' codeType=''/>
+  <appProc fileName='strings.xml' procName='createMultiFunctionProc' codeType=''/>
+  <appProc fileName='yfyfy_list.xml' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='yfyfy_view.xml' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='yfyfy_long_view.xml' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='yfyfy_add.xml' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='yfyfy_edit.xml' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='yfyfy_search.xml' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='yfyfy_menu.xml' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='XxxxxActivity.java' procName='createMultiFunctionProc' codeType=''/>
+  <appProc fileName='XxxxxOpen.java' procName='createMultiFunctionProc' codeType=''/>
+  <appProc fileName='XxxxxProvider.java' procName='createMultiFunctionProc' codeType=''/>
+  <appProc fileName='XxxxxSyncAdapter.java' procName='createMultiFunctionProc' codeType=''/>
+
+  <appProc fileName='YyyyyList.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyView.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyLongView.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyAdd.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyEdit.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyySearch.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='Yyyyy.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyListParcel.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyTable.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyDao.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyEnum.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyPhotoDialog.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyAdapter.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyString.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyContract.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyyParser.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='YyyyySync.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='SyncYyyyyServerHelper.java' procName='createMultiFilesProc' codeType=''/>
+  <appProc fileName='SyncYyyyyQueueHelper.java' procName='createMultiFilesProc' codeType=''/>
+
+  <appProc fileName='YyyyyFffffMapView.java' procName='createMultiFilesCodeTypeProc' codeType='Loc'/>
+  <appProc fileName='YyyyyFffffMapView.java' procName='createMultiFilesCodeTypeProc' codeType='CurrentLoc'/>
+  <appProc fileName='YyyyyFffffTracker.java' procName='createMultiFilesCodeTypeProc' codeType='LocService'/>
+  <appProc fileName='YyyyyFffffVideoSecurity.java' procName='createMultiFilesCodeTypeProc' codeType='Security'/>
+  <appProc fileName='YyyyyFffffPhotoSync.java' procName='createMultiFilesCodeTypeProc' codeType='Camera'/>
+  <appProc fileName='YyyyyFffffPhotoSave.java' procName='createMultiFilesCodeTypeProc' codeType='Camera'/>
+  <appProc fileName='YyyyyFffffPicThumbSync.java' procName='createMultiFilesCodeTypeProc' codeType='Camera'/>
+  <appProc fileName='YyyyyFffffVideoSync.java' procName='createMultiFilesCodeTypeProc' codeType='Video'/>
+  <appProc fileName='YyyyyFffffVideoSave.java' procName='createMultiFilesCodeTypeProc' codeType='Video'/>
+  <appProc fileName='YyyyyFffffVidThumbSync.java' procName='createMultiFilesCodeTypeProc' codeType='Video'/>
+  <appProc fileName='YyyyyFffffThumbnailSave.java' procName='createMultiFilesCodeTypeProc' codeType='Thumbnail'/>
+  <appProc fileName='YyyyyFffffThumbnailSync.java' procName='createMultiFilesCodeTypeProc' codeType='Thumbnail'/>
+  <appProc fileName='YyyyyFffffPostPicSync.java' procName='createMultiFilesCodeTypeProc' codeType='Post'/>
+  <appProc fileName='YyyyyFffffPostVidSync.java' procName='createMultiFilesCodeTypeProc' codeType='Post'/>
+  <appProc fileName='YyyyyFffffPostPicSave.java' procName='createMultiFilesCodeTypeProc' codeType='Post'/>
+  <appProc fileName='YyyyyFffffPostVidSave.java' procName='createMultiFilesCodeTypeProc' codeType='Post'/>
+  <appProc fileName='YyyyyFffffPicThumbSync.java' procName='createMultiFilesCodeTypeProc' codeType='Post'/>
+  <appProc fileName='YyyyyFffffVidThumbSync.java' procName='createMultiFilesCodeTypeProc' codeType='Post'/>
+</appProcs>

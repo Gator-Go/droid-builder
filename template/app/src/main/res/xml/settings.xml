@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <PreferenceCategory android:key="serverConn" android:title="Server Connection" >
+
+        <Preference
+            android:key="connStatus"
+            android:selectable="false"
+            android:enabled="true"
+            android:title=""
+            android:summary="Connection Status" />
+
+        <EditTextPreference
+            android:key="prefDeviceId"
+            android:title="@string/prefDeviceIdTitle"
+            android:summary="@string/prefDeviceIdSummary"
+            android:defaultValue="-1"
+            android:numeric="integer"
+            android:maxLength="7"
+            android:dialogTitle="@string/prefDeviceIdTitle" />
+
+        <EditTextPreference
+            android:key="prefServerIP"
+            android:title="@string/prefServerIPTitle"
+            android:summary="@string/prefServerIPSummary"
+            android:defaultValue="sw-builder.com"
+            android:dialogTitle="@string/prefServerIPTitle" />
+
+        <EditTextPreference
+            android:key="prefServerUser"
+            android:title="@string/prefServerUserTitle"
+            android:summary="@string/prefServerUserSummary"
+            android:defaultValue=""
+            android:dialogTitle="@string/prefServerUserTitle" />
+
+        <EditTextPreference
+            android:key="prefServerPass"
+            android:title="@string/prefServerPassTitle"
+            android:summary="@string/prefServerPassSummary"
+            android:defaultValue=""
+            android:dialogTitle="@string/prefServerPassTitle"
+            android:inputType="textPassword" />
+
+        <EditTextPreference
+            android:key="lastSyncDate"
+            android:title="@string/prefLastSyncDateTitle"
+            android:summary="@string/prefLastSyncDateSummary"
+            android:defaultValue="11-11-2011"
+            android:dialogTitle="@string/prefLastSyncDateDialog" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Preferences" >
+
+        <CheckBoxPreference
+            android:key="showButtons"
+            android:title="@string/showButtonsTitle"
+            android:summary="@string/showButtonsSummary"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="getServerData"
+            android:title="@string/getServerDataTitle"
+            android:summary="@string/getServerDataSummary"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:key="prefDateFormat"
+            android:entries="@array/dateFormatOptions"
+            android:summary="@string/prefDateFormatSummary"
+            android:defaultValue="yyyy/MM/dd"
+            android:entryValues="@array/dateFormatValues"
+            android:title="@string/prefDateFormatTitle" />
+
+    </PreferenceCategory>
+     
+</PreferenceScreen>

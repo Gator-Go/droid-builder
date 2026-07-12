@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+
+    <item android:id="@+id/menu_help"
+          android:icon="@drawable/icon_help"
+          android:title="@string/help"
+          android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_register"
+          android:icon="@drawable/icon_register"
+          android:title="@string/register"
+          android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_return"
+          android:icon="@drawable/icon_return"
+          android:title="@string/myReturn"
+          android:showAsAction="ifRoom" />
+ 
+</menu> 
+

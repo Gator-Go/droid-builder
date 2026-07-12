@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/buttonGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:drawableTop="@drawable/icon_save"
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:drawableTop="@drawable/icon_cancel"
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+  <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" >
+
+___VIEW_PARENT_ONE2MANY_CHILD___
+
+___EDIT_TEXT_INTEGER___
+___EDIT_TEXT_STRING___
+___EDIT_TEXT_CLOB___
+___EDIT_TEXT_ENUM___
+___EDIT_TEXT_TAG___
+___EDIT_TEXT_DOUBLE___
+___EDIT_TEXT_MONEY___
+___EDIT_TEXT_DATE___
+___EDIT_TEXT_DATE_TIME___
+___EDIT_TEXT_BOOLEAN___
+___EDIT_TEXT_CAMERA___
+___EDIT_TEXT_VIDEO___
+___EDIT_TEXT_THUMBNAIL___
+___EDIT_TEXT_POST___
+___EDIT_TEXT_LOC___
+___EDIT_TEXT_CURRENT_LOC___
+___EDIT_TEXT_ONE2MANY_CHILD___
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>

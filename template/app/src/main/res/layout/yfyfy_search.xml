@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/buttonGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:drawableTop="@drawable/icon_search" 
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:drawableTop="@drawable/icon_cancel"
+            android:textSize="15sp"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+  <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" >
+
+___VIEW_PARENT_ONE2MANY_CHILD___
+
+___SEARCH_TEXT_INTEGER___
+___SEARCH_TEXT_STRING___
+___SEARCH_TEXT_CLOB___
+___SEARCH_TEXT_ENUM___
+___SEARCH_TEXT_TAG___
+___SEARCH_TEXT_DOUBLE___
+___SEARCH_TEXT_MONEY___
+___SEARCH_TEXT_BOOLEAN___
+
+___SEARCH_TEXT_LOC___
+___SEARCH_TEXT_CURRENT_LOC___
+___SEARCH_TEXT_DATE___
+___SEARCH_TEXT_DATE_TIME___
+___EDIT_TEXT_ONE2MANY_CHILD___
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>
