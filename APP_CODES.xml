@@ -6639,7 +6639,7 @@
     <code indent='4'>if (fffff == null) {</code>
     <code indent='6'>Spinner fffffId = (Spinner)findViewById(R.id.fffffId);</code>
     <code indent='6'>String fffffSpin = (String) fffffId.getItemAtPosition(fffffId.getSelectedItemPosition());</code>
-    <code indent='6'>String[] fffffParts = fffffSpin.split("\\\\|");</code>
+    <code indent='6'>String[] fffffParts = fffffSpin.split("\\|");</code>
     <code indent='6'>Fffff fffff = fffffDao.getFffffByCloudId(fffffParts[0].trim());</code>
     <code indent='6'>yyyyy.setFffffId(fffff.getId());</code>
     <code indent='6'>yyyyy.setFffffCloudId(fffff.getCloudId());</code>
@@ -6654,7 +6654,7 @@
     <code indent='4'>if (fffff == null) {</code>
     <code indent='6'>Spinner fffffId = (Spinner)findViewById(R.id.fffffId);</code>
     <code indent='6'>fffffPref = (String) fffffId.getItemAtPosition(fffffId.getSelectedItemPosition());</code>
-    <code indent='6'>String[] fffffParts = fffffPref.split("\\\\|");</code>
+    <code indent='6'>String[] fffffParts = fffffPref.split("\\|");</code>
     <code indent='6'>Fffff fffff = fffffDao.getFffffByCloudId(fffffParts[0].trim());</code>
     <code indent='6'>yyyyy.setFffffId(fffff.getId());</code>
     <code indent='6'>yyyyy.setFffffCloudId(fffff.getCloudId());</code>
