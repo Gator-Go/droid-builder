@@ -9,6 +9,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
+/**
+ * Lllll
+ *
+ * This is an Android SettingsActivity (AppCompatActivity) that hosts a settings screen.
+ * It is a thin host activity for a settings UI with toolbar + options menu support.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class SettingsActivity extends AppCompatActivity {
 
     private static String TAG = "SettingsActivity";

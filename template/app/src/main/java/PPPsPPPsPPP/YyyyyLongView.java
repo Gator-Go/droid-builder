@@ -48,6 +48,20 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.util.Log;
 
+/**
+ * Lllll
+ *
+ * This is an Android YyyyyLongView activity that shows a detailed, read-only
+ * view of a single Yyyyy record.
+ * It is a comprehensive detail screen for inspecting a full Yyyyy record and
+ * its related data.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyLongView extends AppCompatActivity {
 
   private static String TAG = "YyyyyLongView";

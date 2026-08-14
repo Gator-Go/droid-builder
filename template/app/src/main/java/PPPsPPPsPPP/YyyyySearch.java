@@ -54,6 +54,18 @@ import android.content.SharedPreferences;
 
 import java.util.ArrayList;
 
+/**
+ * Lllll
+ *
+ * This is an Android YyyyySearch activity that provides a form for searching Yyyyy records.
+ * It is a flexible search screen that filters Yyyyy records and hands the results to the list view.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyySearch extends AppCompatActivity {
 
   private SimpleDateFormat formatter = null;

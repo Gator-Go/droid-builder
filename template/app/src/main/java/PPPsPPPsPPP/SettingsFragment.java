@@ -34,6 +34,20 @@ import android.util.Log;
 import java.util.concurrent.CancellationException;
 import java.util.concurrent.ExecutionException;
 
+/**
+ * Lllll
+ *
+ * This is an Android SettingsFragment (PreferenceFragmentCompat) that manages app
+ * configuration preferences.
+ * It is a preference screen for server connection details, device registration,
+ * and related settings, with encryption, validation, and server notification support.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class SettingsFragment extends PreferenceFragmentCompat
         implements SharedPreferences.OnSharedPreferenceChangeListener {
 

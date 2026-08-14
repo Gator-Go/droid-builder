@@ -48,6 +48,20 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.util.Log;
 
+/**
+ * Lllll
+ *
+ * This is an Android YyyyyView activity that displays a single Yyyyy record
+ * (standard detail view).
+ * It is the primary detail screen for viewing a Yyyyy record, with direct access
+ * to edit and related media/location features.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyView extends AppCompatActivity {
 
   private static String TAG = "YyyyyView";

@@ -74,6 +74,19 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.IOException;
 
+/**
+ * Lllll
+ *
+ * This is an Android YyyyyEdit activity for updating an existing Yyyyy record.
+ * It is a “Edit” form that loads, modifies, and persists an existing data entity
+ * with full media and location support.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyEdit extends AppCompatActivity {
 
   private static final String TAG = "YyyyyEdit";

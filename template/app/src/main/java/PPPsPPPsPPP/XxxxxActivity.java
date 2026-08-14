@@ -31,6 +31,19 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+/**
+ * Lllll
+ *
+ * This is the main Android XxxxxActivity (AppCompatActivity).
+ * It is the app’s primary entry-point screen that provides navigation to data tables,
+ * settings, and sync functionality.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class XxxxxActivity extends AppCompatActivity {
 
 ___ACTIVITY_DAO_FUNCTION___

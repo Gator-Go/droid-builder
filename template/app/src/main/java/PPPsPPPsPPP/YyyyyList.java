@@ -34,6 +34,18 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+/**
+ * Lllll
+ *
+ * This is an Android YyyyyList activity that displays a list of Yyyyy records.
+ * It is a standard list screen for browsing, viewing, adding, and searching Yyyyy entities.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyList extends AppCompatActivity {
   private YyyyyDao yyyyyDao;
   private ArrayList<Yyyyy> values = null;

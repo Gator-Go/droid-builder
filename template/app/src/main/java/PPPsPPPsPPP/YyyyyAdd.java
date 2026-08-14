@@ -74,6 +74,19 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.IOException;
 
+/**
+ * Lllll
+ *
+ * This is an Android YyyyyAdd activity for creating a new Yyyyy record.
+ * It is a highly templated “Add” form screen for inserting a new data entity with
+ * rich field support (including media and location).
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyAdd extends AppCompatActivity {
 
   private static final String TAG = "YyyyyAdd";
