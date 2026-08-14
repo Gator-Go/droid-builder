@@ -15,16 +15,12 @@ import java.text.DecimalFormat;
 import android.os.Parcel;
 import android.os.Parcelable;
  
-
 /**
  * Lllll
- *  
- */
-
-/**
- * This entity bean is used to manage the YYYYY database table.<br>
- * This class follows the POJO model so there is a standard get<br>
- * and set method on each data item.
+ *
+ * This is the main Yyyyy POJO (data model) that implements Parcelable.
+ * It is the central data entity representing a Yyyyy record, designed
+ * to be generated for many different field types.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>

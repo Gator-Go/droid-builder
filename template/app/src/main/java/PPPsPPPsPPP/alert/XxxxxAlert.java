@@ -3,6 +3,20 @@ package ppp.ppp.ppp.alert;
 
 import java.util.Date;
 
+/**
+ * Lllll
+ *
+ * This is a simple POJO (XxxxxAlert) that represents an alert/event
+ * to be sent to the server.
+ * It is a data container for alert information, with standard getters
+ * and setters.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class XxxxxAlert {
 
     private Long deviceId;

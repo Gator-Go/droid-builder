@@ -10,6 +10,20 @@ import java.text.SimpleDateFormat;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
+/**
+ * Lllll
+ *
+ * This is a utility class YyyyyString that converts Yyyyy objects
+ * into formatted display strings.
+ * It is a helper that produces consistent text representations of
+ * Yyyyy records for lists and other UI displays.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyString {
 
     private Context context;

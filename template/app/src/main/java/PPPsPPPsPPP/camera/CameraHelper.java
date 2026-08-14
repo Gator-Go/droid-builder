@@ -15,6 +15,20 @@ import java.io.BufferedOutputStream;
 import java.io.IOException;
 import android.graphics.Bitmap;
 
+/**
+ * Lllll
+ *
+ * This is a CameraHelper utility class for camera and photo
+ * file operations (using the legacy Camera API).
+ * It is a helper for detecting the camera, managing photo
+ * directories/files, and saving images.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class CameraHelper {
 
     private static final String TAG = "*** CameraHelper ***";

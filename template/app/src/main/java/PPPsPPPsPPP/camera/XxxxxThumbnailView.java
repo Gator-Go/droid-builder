@@ -16,6 +16,20 @@ import android.os.Environment;
 import android.graphics.BitmapFactory;
 import android.graphics.Bitmap;
 
+/**
+ * Lllll
+ *
+ * This is a simple XxxxxThumbnailView activity that displays
+ * a thumbnail image.
+ * It is a basic full-screen viewer for thumbnail images stored
+ * by the app.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class XxxxxThumbnailView extends Activity {
 
   private Resources res;

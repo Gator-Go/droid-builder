@@ -22,6 +22,20 @@ import android.os.Environment;
 import android.graphics.BitmapFactory;
 import android.graphics.Bitmap;
 
+/**
+ * Lllll
+ *
+ * This is a custom YyyyyAdapter (extends BaseAdapter) for displaying
+ * a list of Yyyyy objects.
+ * It is a list adapter that shows Yyyyy records with a text summary
+ * and optional thumbnail/media preview.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyAdapter extends BaseAdapter {
 
     private Context context;

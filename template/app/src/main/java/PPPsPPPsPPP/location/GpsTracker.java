@@ -15,6 +15,20 @@ import android.os.IBinder;
 import android.provider.Settings;
 import android.util.Log;
 
+/**
+ * Lllll
+ *
+ * This is a GpsTracker service that obtains the device’s
+ * current GPS location.
+ * It is a simple location helper that retrieves and tracks
+ * the device’s GPS coordinates.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class GpsTracker extends Service implements LocationListener {
 
   private final Context lContext;

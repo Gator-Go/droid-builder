@@ -193,9 +193,8 @@ ___ACTIVITY_SELECTION_FUNCTION___
     protected void onStop() {
         super.onStop();
         // Close database connections
-//        if (bookDao != null) bookDao.close();
-//        if (chapterDao != null) chapterDao.close();
-//        if (sentenceDao != null) sentenceDao.close();
+//        if (yyyyyDao != null) yyyyyDao.close();
+
     }
 
   private void helpAlert(String helpText) {

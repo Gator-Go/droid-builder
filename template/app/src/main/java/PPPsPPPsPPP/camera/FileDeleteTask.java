@@ -14,23 +14,18 @@ import android.widget.TextView;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
-
 /**
- * Developed by PojoMax Incorporated
- *  
- */
-
-/**
- * This entity bean is used to manage the SERVICE_RECORD database table.<br>
- * This class follows the POJO model so there is a standard get<br>
- * and set method on each data item.
+ * Lllll
+ *
+ * This is a simple AsyncTask (FileDeleteTask) that deletes a file in the background.
+ * It takes a File in the constructor and attempts to delete it inside doInBackground,
+ * logging success or failure. It is a background helper for safely deleting photo/video files.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
  * @version 1.0
  * @version $Id$
  */
-
 
 public class FileDeleteTask extends AsyncTask<Void, Void, Void> {
 

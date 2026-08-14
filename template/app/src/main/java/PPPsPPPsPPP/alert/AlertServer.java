@@ -19,9 +19,19 @@ import java.security.InvalidKeyException;
 import java.util.Date;
 
 /**
- * This class passes Alerts to the server.
+ * Lllll
  *
+ * This is an AlertServer helper that asynchronously sends alerts
+ * to a remote server.
+ * It is a utility for pushing configuration/event alerts to the
+ * backend server securely in the background.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class AlertServer {
 
     private final Context context;

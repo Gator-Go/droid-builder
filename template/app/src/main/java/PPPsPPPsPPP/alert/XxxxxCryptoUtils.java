@@ -15,11 +15,19 @@ import android.util.Base64;
 import android.util.Log;
 
 /**
- * This class contains methods that are security related.  Examples are
- * encrypting and decrypting.
- * 
-
+ * Lllll
+ *
+ * This is a cryptography utility class (XxxxxCryptoUtils) for encrypting
+ * and decrypting strings (primarily server passwords).
+ * It is a simple AES helper used to protect sensitive preference values
+ * such as the server password.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public final class XxxxxCryptoUtils
 {
     private static final String TAG = "XxxxxCryptoUtils";

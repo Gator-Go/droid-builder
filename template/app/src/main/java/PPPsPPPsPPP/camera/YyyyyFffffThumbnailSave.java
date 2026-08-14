@@ -18,13 +18,11 @@ import java.io.BufferedOutputStream;
 
 /**
  * Lllll
- *  
- */
-
-/**
- * This entity bean is used to manage the YYYYY database table.<br>
- * This class follows the POJO model so there is a standard get<br>
- * and set method on each data item.
+ *
+ * This is a YyyyyFffffThumbnailSave helper that processes and saves
+ * a thumbnail image, then triggers sync.
+ * It is background processing that turns a temporary image into a permanent,
+ * correctly oriented thumbnail and starts the sync.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>

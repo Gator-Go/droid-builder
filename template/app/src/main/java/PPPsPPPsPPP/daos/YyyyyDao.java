@@ -20,20 +20,17 @@ import android.util.Log;
 
 /**
  * Lllll
- *  
- */
-
-/**
- * This entity bean is used to manage the YYYYY database table.<br>
- * This class follows the POJO model so there is a standard get<br>
- * and set method on each data item.
+ *
+ * This is the YyyyyDao – the main data-access class for Yyyyy entities.
+ * It uses a ContentProvider (YyyyyContract) and provides the central
+ * DAO that handles all CRUD and search operations for Yyyyy data through
+ * the app’s ContentProvider.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
  * @version 1.0
  * @version $Id$
  */
-
 
 public class YyyyyDao {
 

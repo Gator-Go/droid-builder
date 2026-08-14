@@ -13,6 +13,19 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * Lllll
+ *
+ * This is an ImageHelper utility class for loading, resizing, rotating, and saving bitmaps.
+ * It is a helper for efficient image loading, resizing, orientation correction, and saving
+ * (especially for camera photos).
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class ImageHelper {
 
     private static final String TAG = "ImageHelper";

@@ -11,11 +11,11 @@ import android.util.Log;
 
 /**
  * Lllll
- *  
- */
-
-/**
-
+ *
+ * This is a YyyyyFffffPicThumbSync helper that uploads/syncs a
+ * photo thumbnail to the server.
+ * It is a background task that syncs the thumbnail version of
+ * a photo to the remote server.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>

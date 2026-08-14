@@ -1,22 +1,16 @@
 package ppp.ppp.ppp.checks;
 
-
 /**
  * Lllll
- *  
- */
-
-/**
- * This entity bean is used to manage the YYYYY database table.<br>
- * This class follows the POJO model so there is a standard get<br>
- * and set method on each data item.
+ *
+ * This is a simple DataCheck utility class for basic data validation.
+ * It is a small helper for validating coordinates and numeric strings.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
  * @version 1.0
  * @version $Id$
  */
-
 
 public class DataCheck {
 

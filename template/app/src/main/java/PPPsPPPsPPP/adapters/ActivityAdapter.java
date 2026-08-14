@@ -12,6 +12,18 @@ import android.util.Log;
 import java.util.List;
 import java.util.ArrayList;
 
+/**
+ * Lllll
+ *
+ * This is a simple custom ActivityAdapter (extends BaseAdapter) for a ListView.
+ * It is a basic adapter that displays a list of plain text items.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class ActivityAdapter extends BaseAdapter {
 
     private Context context;

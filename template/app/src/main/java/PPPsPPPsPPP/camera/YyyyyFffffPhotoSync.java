@@ -11,11 +11,11 @@ import android.util.Log;
 
 /**
  * Lllll
- *  
- */
-
-/**
-
+ *
+ * This is a YyyyyFffffPhotoSync helper that uploads/syncs a photo file
+ * to the server.
+ * It is a background task that syncs a specific photo (cloudId-version.jpg)
+ * to the remote server.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>

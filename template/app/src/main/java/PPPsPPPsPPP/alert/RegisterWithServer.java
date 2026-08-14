@@ -7,8 +7,17 @@ import android.os.AsyncTask;
 import android.content.Context;
 
 /**
- * This class passes Registers to the server.
+ * Lllll
  *
+ * This is an AsyncTask (RegisterWithServer) that registers the device
+ * with the remote server.
+ * It is a background task that requests a new device ID from the server
+ * during registration.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
 
 public class RegisterWithServer extends AsyncTask<Void, Void, String> {

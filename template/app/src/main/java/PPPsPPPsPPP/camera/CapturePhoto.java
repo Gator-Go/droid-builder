@@ -23,6 +23,19 @@ import java.io.File;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
+/**
+ * Lllll
+ *
+ * This is a CapturePhoto activity that uses CameraX to take a photo.
+ * It is a modern CameraX-based photo capture screen that saves the
+ * image to a specified path.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class CapturePhoto extends AppCompatActivity {
     private ImageCapture imageCapture;
     private PreviewView previewView;

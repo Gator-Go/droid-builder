@@ -78,7 +78,7 @@ import java.io.IOException;
  * Lllll
  *
  * This is an Android YyyyyAdd activity for creating a new Yyyyy record.
- * It is a highly templated “Add” form screen for inserting a new data entity with
+ * It is a “Add” form screen for inserting a new data entity with
  * rich field support (including media and location).
  *
  * @author Aaaaa
