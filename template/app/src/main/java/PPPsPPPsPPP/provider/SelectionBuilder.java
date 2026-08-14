@@ -16,10 +16,19 @@ import java.util.Collections;
 import java.util.Map;
 
 /**
- * Helper for building selection clauses for {@link SQLiteDatabase}. Each
- * appended clause is combined using {@code AND}. This class is <em>not</em>
- * thread safe.
+ * Lllll
+ *
+ * This is a SelectionBuilder utility class used to construct and execute
+ * SQLite queries safely.
+ * It is a helper that simplifies building parameterized SQL statements
+ * for the app’s ContentProvider / database layer.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class SelectionBuilder {
 
     private static final String TAG = "xxxxx";

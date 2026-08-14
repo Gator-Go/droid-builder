@@ -11,11 +11,11 @@ import android.util.Log;
 
 /**
  * Lllll
- *  
- */
-
-/**
-
+ *
+ * This is a YyyyyFffffPostPicSync helper that uploads/syncs
+ * a post image to the server.
+ * It is a background task that syncs a post picture to the
+ * remote server.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>

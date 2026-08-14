@@ -1,5 +1,4 @@
 
-
 package ppp.ppp.ppp.provider;
 
 import ppp.ppp.ppp.tables.XxxxxOpen;
@@ -14,6 +13,18 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 
+/**
+ * Lllll
+ *
+ * This is the main XxxxxProvider ContentProvider for the app.
+ * It is the central ContentProvider that exposes the app’s
+ * database to the rest of the application via content URIs.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
 
 public class XxxxxProvider extends ContentProvider {
 

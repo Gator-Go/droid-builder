@@ -6,9 +6,19 @@ import android.net.Uri;
 import android.provider.BaseColumns;
 
 /**
- * Field and table name constants for
- * {@link ppp.ppp.ppp.yyyyy}.
+ * Lllll
+ *
+ * This is the YyyyyContract class that defines the content URI
+ * and column constants for Yyyyy data.
+ * It is the contract that standardizes how the rest of the app
+ * accesses Yyyyy data through the ContentProvider.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class YyyyyContract {
     private YyyyyContract() {
     }

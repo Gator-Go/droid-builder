@@ -11,15 +11,15 @@ import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 
 /**
- * Developed by BerryCloud Incorporated
+ * Lllll
  *
- */
-
-/**
- * Manage upload Pic and Video Data
+ * This is a simple PostTask utility that copies data from an InputStream
+ * to a local file.
+ * It is a helper used to save selected photos or videos (from the
+ * camera/gallery result) to a local file.
  *
- * @author Ron & Conrad Kanengieter
- * @author <a href="mailto:admin@homeberrycloud.com">Ron Kanengieter</a>
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
  * @version 1.0
  * @version $Id$
  */

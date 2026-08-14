@@ -17,6 +17,20 @@ import java.net.MalformedURLException;
 import javax.net.ssl.HttpsURLConnection;
 import android.util.Base64;
 
+/**
+ * Lllll
+ *
+ * This is a SyncServerFile singleton that downloads a file
+ * from the server over HTTPS and saves it locally.
+ * It is a helper used to pull files (photos, videos, etc.)
+ * down from the server during sync.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class SyncServerFile {
     public static final String TAG = "SyncServerFile";
     private static final int NET_CONNECT_TIMEOUT_MILLIS = 15000; // 15 seconds

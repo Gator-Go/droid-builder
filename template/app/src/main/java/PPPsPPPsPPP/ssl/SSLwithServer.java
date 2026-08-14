@@ -13,8 +13,17 @@ import java.util.Date;
 import javax.net.ssl.HttpsURLConnection;
 
 /**
- * This class passes Registers to the server.
+ * Lllll
  *
+ * This is a singleton SSLwithServer helper for making
+ * authenticated HTTPS GET requests.
+ * It is the core utility used by the app to communicate
+ * with the backend server over SSL.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
 
 public class SSLwithServer

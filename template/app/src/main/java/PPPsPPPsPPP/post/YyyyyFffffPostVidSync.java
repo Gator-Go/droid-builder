@@ -11,11 +11,10 @@ import android.util.Log;
 
 /**
  * Lllll
- *  
- */
-
-/**
-
+ *
+ * This is a YyyyyFffffPostVidSync helper that uploads/syncs a
+ * post video to the server.
+ * It is a background task that syncs a post video to the remote server.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>

@@ -17,6 +17,20 @@ import android.graphics.BitmapFactory;
 import android.graphics.Bitmap;
 import com.github.chrisbanes.photoview.PhotoView;
 
+/**
+ * Lllll
+ *
+ * This is an XxxxxPostPicView activity that displays a “post”
+ * image with zoom/pan support.
+ * It is a full-screen photo viewer specifically for post images
+ * stored by the app.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class XxxxxPostPicView extends AppCompatActivity {
 
   private Resources res;

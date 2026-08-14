@@ -8,6 +8,20 @@ import android.os.AsyncTask;
 import android.util.Log;
 import java.io.File;
 
+/**
+ * Lllll
+ *
+ * This is a YyyyyFffffPostPicSave helper that processes and saves
+ * a “post” image (plus thumbnail), then triggers sync.
+ * It performs background processing that turns a temporary post image
+ * into permanent full-size + thumbnail files and starts the sync.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyFffffPostPicSave {
 
     private static final String TAG = "YyyyyFffffPostPicSave";
@@ -59,12 +73,12 @@ public class YyyyyFffffPostPicSave {
                 return false;
             }
 
-            String imageNewFile = postDir + "/" + theCloudId + "-" + thePostingVersion + ".jpg";
+            String imageNewFile = postDir + "/" + theCloudId + "-" + theFffffVersion + ".jpg";
             File imageFile = new File(imageNewFile);
             if (imageHelper.processAndSaveImage( myTempFile, imageFile, maxPicSize) == false)
                 return false;
 
-            String newPicThumb = postDir + "/" + theCloudId + "PicThumb" + thePostingVersion + ".jpg";
+            String newPicThumb = postDir + "/" + theCloudId + "PicThumb" + theFffffVersion + ".jpg";
             File picThumb = new File(newPicThumb);
             if (imageHelper.processAndSaveImage( myTempFile, picThumb, maxThumbSize) == false)
                 return false;

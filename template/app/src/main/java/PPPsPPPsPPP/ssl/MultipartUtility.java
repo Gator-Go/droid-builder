@@ -24,9 +24,20 @@ import java.util.List;
 import java.util.ArrayList;
 import javax.net.ssl.HttpsURLConnection;
 
-/** Service to handle sync file.
+/**
+ * Lllll
  *
+ * This is a MultipartUtility class for sending multipart/form-data
+ * requests over HTTPS.
+ * It is a helper used to upload files (photos, videos, etc.) to the
+ * server using multipart form data.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class MultipartUtility {
 
     private static final String TAG = "MultipartUtility";
