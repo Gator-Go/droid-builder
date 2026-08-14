@@ -75,6 +75,20 @@ import java.io.BufferedOutputStream;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Lllll
+ *
+ * This is a YyyyyFffffVideoSecurity foreground Service that continuously
+ * records short video clips and detects motion.
+ * It is a background security camera service that records periodic video
+ * clips and only keeps/syncs those that contain motion.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class YyyyyFffffVideoSecurity extends Service {
 
   private static final String TAG = "YyyyyFffffVideoSecurity";

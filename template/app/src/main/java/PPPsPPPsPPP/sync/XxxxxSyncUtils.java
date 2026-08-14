@@ -13,8 +13,19 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 
 /**
- * Static helper methods for working with the sync framework.
+ * Lllll
+ *
+ * This is a XxxxxSyncUtils helper for managing the app’s
+ * Android sync account and triggering syncs.
+ * It is the utility that sets up and controls the app’s
+ * participation in Android’s Sync Framework.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class XxxxxSyncUtils {
     public static final String TAG = "XxxxxSyncUtils";
     private static final long SYNC_FREQUENCY = 60 * 60;  // 1 hour (in seconds)

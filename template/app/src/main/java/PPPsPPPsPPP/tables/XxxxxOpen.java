@@ -9,13 +9,11 @@ import android.util.Log;
 
 /**
  * Lllll
- *  
- */
-
-/**
- * This entity bean is used to manage the YYYYY database table.<br>
- * This class follows the POJO model so there is a standard get<br>
- * and set method on each data item.
+ *
+ * This is the XxxxxOpen class – a singleton SQLiteOpenHelper
+ * that manages the app’s database.
+ * It is the central database helper that the ContentProvider
+ * uses to access the local SQLite store.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>

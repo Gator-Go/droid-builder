@@ -1,5 +1,4 @@
 
-
 package ppp.ppp.ppp.sync;
 
 import android.accounts.AbstractAccountAuthenticator;
@@ -12,6 +11,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
+
+/**
+ * Lllll
+ *
+ * This is an XxxxxAccountService that provides a dummy
+ * Android account for the Sync Framework.
+ * It is the required account service that lets the app
+ * participate in Android’s built-in sync system.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
 
 public class XxxxxAccountService extends Service {
     private static final String TAG = "XxxxxAccountService";

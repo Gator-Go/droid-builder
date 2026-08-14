@@ -33,16 +33,20 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.Date;
 
-
 /**
- * Define a sync adapter for the app.
+ * Lllll
  *
- * <p>This class is instantiated in {@link SyncService}, which also binds SyncAdapter to the system.
- * SyncAdapter should only be initialized in SyncService, never anywhere else.
+ * This is the main XxxxxSyncAdapter (extends AbstractThreadedSyncAdapter)
+ * that performs the app’s cloud synchronization.
+ * It is the core sync engine that keeps local Yyyyy (and related) data
+ * in sync with the remote server.
  *
- * <p>The system calls onPerformSync() via an RPC call through the IBinder object supplied by
- * SyncService.
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 class XxxxxSyncAdapter extends AbstractThreadedSyncAdapter {
     public static final String TAG = "XxxxxSyncAdapter";
     private SSLwithServer sslWithServer;

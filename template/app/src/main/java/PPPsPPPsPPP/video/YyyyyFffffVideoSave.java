@@ -19,13 +19,11 @@ import java.io.BufferedOutputStream;
 
 /**
  * Lllll
- *  
- */
-
-/**
- * This entity bean is used to manage the YYYYY database table.<br>
- * This class follows the POJO model so there is a standard get<br>
- * and set method on each data item.
+ *
+ * This is a YyyyyFffffVideoSave helper that processes and saves
+ * a video (plus a rotated thumbnail), then triggers sync.
+ * It performs background processing that finalizes a video,
+ * generates an oriented thumbnail, and starts the sync.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
@@ -47,7 +45,7 @@ public class YyyyyFffffVideoSave {
 
   public void saveVideo() {
 
-    VideoAsyncTask task = new VideoAsyncTask(context, theCloudId, theMovementVideoVersion);
+    VideoAsyncTask task = new VideoAsyncTask(context, theCloudId, theFffffVersion);
     task.execute();
   }
 

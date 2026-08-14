@@ -13,9 +13,20 @@ import java.io.File;
 import java.util.List;
 import java.lang.StringBuilder;
 
-/** Service to handle sync file.
+/**
+ * Lllll
  *
+ * This is an XxxxxSyncDownFile helper that uploads a local file
+ * to the server (despite the “Down” in the name).
+ * It is a utility that uploads a photo/video/file from local
+ * storage to the remote server.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class XxxxxSyncDownFile {
 
     public static final String TAG = "XxxxxSyncDownFile";

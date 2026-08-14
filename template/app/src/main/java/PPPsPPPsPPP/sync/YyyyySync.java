@@ -34,14 +34,19 @@ import java.util.Date;
 import java.lang.StringBuffer;
 
 /**
- * Define a sync adapter for the app.
+ * Lllll
  *
- * <p>This class is instantiated in {@link SyncService}, which also binds SyncAdapter to the system.
- * SyncAdapter should only be initialized in SyncService, never anywhere else.
+ * This is the YyyyySync class that performs the actual merge
+ * of server data into the local database.
+ * It is the detailed sync engine that merges server Yyyyy data
+ * with the local ContentProvider (including media files).
  *
- * <p>The system calls onPerformSync() via an RPC call through the IBinder object supplied by
- * SyncService.
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 class YyyyySync {
     public static final String TAG = "YyyyySync";
     public SyncServerFile syncServerFile = SyncServerFile.getInstance();

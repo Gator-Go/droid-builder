@@ -1,15 +1,13 @@
-package ppp.ppp.ppp.tables;
 
+package ppp.ppp.ppp.tables;
 
 /**
  * Lllll
- *  
- */
-
-/**
- * This entity bean is used to manage the YYYYY database table.<br>
- * This class follows the POJO model so there is a standard get<br>
- * and set method on each data item.
+ *
+ * This is the YyyyyTable class that holds the SQL statement
+ * to create the YYYYY table.
+ * It is the table definition used by XxxxxOpen when creating
+ * the database.
  *
  * @author Aaaaa
  * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>

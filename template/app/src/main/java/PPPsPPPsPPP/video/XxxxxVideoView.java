@@ -17,6 +17,19 @@ import android.os.Environment;
 import android.graphics.BitmapFactory;
 import android.graphics.Bitmap;
 
+/**
+ * Lllll
+ *
+ * This is an XxxxxVideoView activity that plays a video.
+ * It is a simple full-screen video player for videos
+ * stored by the app (very similar to XxxxxPostVidView).
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
+ */
+
 public class XxxxxVideoView extends AppCompatActivity {
 
   private Resources res;

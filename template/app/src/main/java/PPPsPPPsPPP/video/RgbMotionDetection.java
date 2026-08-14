@@ -1,16 +1,23 @@
+
 package ppp.ppp.ppp;
 
 import android.graphics.Color;
-
-
 import android.util.Log;
 
 /**
- * This class is used to process integer arrays containing RGB data and detects
- * motion.
- * 
- * @author Justin Wetherell <phishman3579@gmail.com>
+ * Lllll
+ *
+ * This is an RgbMotionDetection class that detects motion
+ * by comparing successive camera frames.
+ * It is a basic frame-difference motion detector for use
+ * with the camera.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class RgbMotionDetection {
 
      private static final String TAG = "RgbMotionDetection";

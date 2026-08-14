@@ -15,9 +15,17 @@ import java.util.List;
 import java.util.Date;
 
 /**
- * This class parses Yyyyy jason feeds.
+ * Lllll
  *
+ * This is a YyyyyParser that converts between Yyyyy objects and JSON.
+ * It is the JSON converter used during sync to send and receive Yyyyy data.
+ *
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class YyyyyParser {
 
     private JSONObject jsonObject = new JSONObject();

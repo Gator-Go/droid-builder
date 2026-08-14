@@ -41,16 +41,20 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Arrays;
 
-
 /**
- * Define a sync adapter for the app.
+ * Lllll
  *
- * <p>This class is instantiated in {@link SyncService}, which also binds SyncAdapter to the system.
- * SyncAdapter should only be initialized in SyncService, never anywhere else.
+ * This is a SyncYyyyyServerHelper that pushes a single
+ * Yyyyy record to the server.
+ * It performs immediate server sync for a Yyyyy change,
+ * with offline queuing as a fallback.
  *
- * <p>The system calls onPerformSync() via an RPC call through the IBinder object supplied by
- * SyncService.
+ * @author Aaaaa
+ * @author <a href="mailto:aaaaa@ddddd">Aaaaa</a>
+ * @version 1.0
+ * @version $Id$
  */
+
 public class SyncYyyyyServerHelper {
 
 
