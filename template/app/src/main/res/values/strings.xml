@@ -61,6 +61,10 @@
     <string name="deleteThisPhoto">Delete This Photo?</string>
     <string name="noPhotoView">No Photo View, Use Edit To Take One.</string>
     <string name="SecurityHelp">Security Help</string>
+    <string name="securityStart">Security Video</string>
+    <string name="securityStop">Stop Video</string>
+    <string name="securityStartService">Start Movement Video</string>
+    <string name="securityStopService">Stop Movement Video</string>
 
     <string name="uploadVideo">Upload Video</string>
     <string name="takeVideo">Take Video</string>
