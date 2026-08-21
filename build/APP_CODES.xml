@@ -2584,15 +2584,15 @@
     <code indent='4'>LLLLLstring name="fffffSearchHelp"GGGGGDFDFD Search help text.LLLLL/stringGGGGG</code>
   </appCode>
   <appCode codeKey='___STRING_FOR_ONE2MANY_PARENT___' codeType='One2ManyParent'>
-    <code indent='4'>LLLLLstring name="fffffAdd"GGGGGAdd DFDFDLLLLL/stringGGGGG</code>
-    <code indent='4'>LLLLLstring name="fffffList"GGGGGList DFDFDLLLLL/stringGGGGG</code>
+    <code indent='4'>LLLLLstring name="yyyyyFffffAdd"GGGGGAdd DFDFDLLLLL/stringGGGGG</code>
+    <code indent='4'>LLLLLstring name="yyyyyFffffList"GGGGGList DFDFDLLLLL/stringGGGGG</code>
   </appCode>
   <appCode codeKey='___STRING_FOR_ONE2MANY_CHILD___' codeType='One2ManyChild'>
-    <code indent='4'>LLLLLstring name="fffffView"GGGGGView DFDFDLLLLL/stringGGGGG</code>
-    <code indent='4'>LLLLLstring name="fffff"GGGGGDFDFD:LLLLL/stringGGGGG</code>
-    <code indent='4'>LLLLLstring name="fffffSearch"GGGGGDFDFD Search:LLLLL/stringGGGGG</code>
-    <code indent='4'>LLLLLstring name="fffffHelp"GGGGGDFDFD help text.LLLLL/stringGGGGG</code>
-    <code indent='4'>LLLLLstring name="fffffSearchHelp"GGGGGDFDFD Search help text.LLLLL/stringGGGGG</code>
+    <code indent='4'>LLLLLstring name="yyyyyFffffView"GGGGGView DFDFDLLLLL/stringGGGGG</code>
+    <code indent='4'>LLLLLstring name="yyyyyFffff"GGGGGDFDFD:LLLLL/stringGGGGG</code>
+    <code indent='4'>LLLLLstring name="yyyyyFffffSearch"GGGGGDFDFD Search:LLLLL/stringGGGGG</code>
+    <code indent='4'>LLLLLstring name="yyyyyFffffHelp"GGGGGDFDFD help text.LLLLL/stringGGGGG</code>
+    <code indent='4'>LLLLLstring name="yyyyyFffffSearchHelp"GGGGGDFDFD Search help text.LLLLL/stringGGGGG</code>
   </appCode>
 
 
