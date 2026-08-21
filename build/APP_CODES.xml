@@ -3126,7 +3126,7 @@
     <code indent='12'>android:layout_width="wrap_content"</code>
     <code indent='12'>android:layout_height="wrap_content"</code>
     <code indent='12'>android:layout_weight=".25"</code>
-    <code indent='8'>android:text="@string/fffffView"</code>
+    <code indent='8'>android:text="@string/yyyyyFffffView"</code>
     <code indent='12'>android:drawableLeft="@drawable/icon_view_small"</code>
     <code indent='8'>android:onClick="onClick" /GGGGG</code>
     <code indent='2'>LLLLLSpace</code>
@@ -3154,7 +3154,7 @@
     <code indent='12'>android:layout_width="wrap_content"</code>
     <code indent='12'>android:layout_height="wrap_content"</code>
     <code indent='12'>android:layout_weight=".35"</code>
-    <code indent='12'>android:text="@string/fffffAdd"</code>
+    <code indent='12'>android:text="@string/yyyyyFffffAdd"</code>
     <code indent='12'>android:drawableLeft="@drawable/icon_add_small"</code>
     <code indent='8'>android:onClick="onClick" /GGGGG</code>
     <code indent='4'>LLLLLButton</code>
@@ -3695,7 +3695,7 @@
     <code indent='12'>android:id="@+id/fffffText"</code>
     <code indent='12'>android:layout_width="wrap_content"</code>
     <code indent='12'>android:layout_height="wrap_content"</code>
-    <code indent='12'>android:text="@string/fffff"  /GGGGG</code>
+    <code indent='12'>android:text="@string/yyyyyFffff"  /GGGGG</code>
     <code indent='8'>LLLLLSpinner</code>
     <code indent='12'>android:id="@+id/fffffId"</code>
     <code indent='12'>android:layout_width="match_parent"</code>
