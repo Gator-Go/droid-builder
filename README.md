@@ -18,7 +18,7 @@ droid-builder/
 │   ├── APP_FUNCS.xml
 │   └── APP_PROCS.xml
 └── template/
-
+```
 ## Build Scripts
 
 Build scripts live in each generated app repo, not in this builder.
