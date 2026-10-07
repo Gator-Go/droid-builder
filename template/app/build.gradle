@@ -19,9 +19,9 @@ android {
 
     signingConfigs {
         release {
-            keyAlias 'homeberrycloud'
+            keyAlias 'sw-builder'
             keyPassword System.getenv('KEY_PASSWORD')
-            storeFile file('/home/gator/android/keytools/keys/homeberrycloud.keystore')
+            storeFile file('/home/gator/sw-builder/android/keytools/keys/sw-builder.keystore')
             storePassword System.getenv('STORE_PASSWORD')
         }
     }
