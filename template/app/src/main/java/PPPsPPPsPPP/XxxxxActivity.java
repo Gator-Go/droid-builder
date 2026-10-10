@@ -137,7 +137,7 @@ ___ACTIVITY_SELECTION_FUNCTION___
       } else if (rId == R.id.exit) {
           finishAffinity(); 
       } else if (rId == R.id.xxxxxLink) {
-          Uri uri = Uri.parse("http://www.sw-builder.com");
+          Uri uri = Uri.parse("http://sw-builder.com");
           Intent urlIntent = new Intent(Intent.ACTION_VIEW, uri);
           startActivity(urlIntent);
       }
